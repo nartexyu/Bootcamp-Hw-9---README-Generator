@@ -14,5 +14,5 @@ Create a pull request and I will review your code!
 Feel free to contact me if you have any questions at nathanielyu917@gmail.com!
 
 ## Application Media
-![]("/img/Screenshot.JPG")
+![](img/Screenshot.JPG)
     
