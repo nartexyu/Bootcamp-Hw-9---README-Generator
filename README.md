@@ -16,5 +16,5 @@ Create a pull request and I will review your code contributions!
 Feel free to contact me if you have any questions at nathanielyu917@gmail.com!
 
 ## Screenshot
-![]("img/Screenshot.JPG")
+![](img/Screenshot.JPG)
     
