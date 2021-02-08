@@ -43,26 +43,26 @@ const questions = [
 // function to write README file
 function writeToFile(res) {
     fs.writeFile("README.md", 
-    `# ${res.title}
+`# ${res.title}
 
-    ## Description
-    ${res.description}
+## Description
+${res.description}
 
-    ## Installation
-    ${res.installation}
+## Installation
+${res.installation}
 
-    ## Usage
-    ${res.use}
+## Usage
+${res.use}
 
-    ## Contributing
-    ${res.contribution}
+## Contributing
+${res.contribution}
 
-    ## Contact me
-    Feel free to contact me if you have any questions at ${res.email}!
+## Contact me
+Feel free to contact me if you have any questions at ${res.email}!
 
-    ## Screenshot
-    ![]("${res.screenshot}")
-    `, 
+## Screenshot
+![]("${res.screenshot}")
+`, 
     (err)=> err ? console.error(err) : console.log("README generated.")) 
 };
 
