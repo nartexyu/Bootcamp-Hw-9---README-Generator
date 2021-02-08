@@ -1,11 +1,13 @@
 # README Generator
-    Use fs and inquirer npm package to create a simple readme file.
+
+    ## Description
+    This application uses fs and inquirer to generate a README for the user's repository.
 
     ## Installation
-    Go to the github repository and copy the link and git clone the repository onto your computer.
+    Git clone the repository onto your computer using the HTTPS or SSH link!
 
     ## Usage
-    In your terminal, run 'node index.js'
+    Open your terminal and type 'node index.js' and answer the prompted questions.
 
     ## Contributing
     Create a pull request and I will review your code!
@@ -13,6 +15,6 @@
     ## Contact me
     Feel free to contact me if you have any questions at nathanielyu917@gmail.com!
 
-    ## Application Media
-    ![]("./img/Screenshot.JPG")
+    ## Screenshot
+    ![]("img/Screenshot.JPG")
     

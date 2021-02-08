@@ -44,6 +44,8 @@ const questions = [
 function writeToFile(res) {
     fs.writeFile("README.md", 
     `# ${res.title}
+
+    ## Description
     ${res.description}
 
     ## Installation
@@ -58,7 +60,7 @@ function writeToFile(res) {
     ## Contact me
     Feel free to contact me if you have any questions at ${res.email}!
 
-    ## Application Media
+    ## Screenshot
     ![]("${res.screenshot}")
     `, 
     (err)=> err ? console.error(err) : console.log("README generated.")) 
