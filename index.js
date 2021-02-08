@@ -61,7 +61,7 @@ ${res.contribution}
 Feel free to contact me if you have any questions at ${res.email}!
 
 ## Screenshot
-![]("${res.screenshot}")
+![](${res.screenshot})
 `, 
     (err)=> err ? console.error(err) : console.log("README generated.")) 
 };
